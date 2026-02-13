@@ -1,6 +1,6 @@
 # 🚀 AUTODESK INVENTOR
 
-# Flanged Conical Support Pedestal — Autodesk Inventor CAD Model
+# Flanged Conical Support Pedestal
 
 ## 📖 Overview
 This project models a flanged conical support pedestal with square base and central cylindrical protrusion, fully created in Autodesk Inventor. The component demonstrates key Inventor workflows: sketch-based extrusion, revolve for cylindrical and conical features, patterned holes, large fillet transitions, and precise dimension-driven modeling from an engineering drawing.
