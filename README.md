@@ -1,92 +1,82 @@
-# 🚀 SIEMENS NX
+# 🚀 AUTODESK INVENTOR
 
-# Dual-Radius Pipe Support Clamp — Siemens NX CAD Model
+# Flanged Conical Support Pedestal — Autodesk Inventor CAD Model
 
 ## 📖 Overview
-This project models a pipe support clamp with integrated base plate, fully created in Siemens NX. The component demonstrates key NX workflows including sketch-based extrusion, revolve for cylindrical features, swept cut for slot creation, edge blending (fillets), and precise dimension-driven modeling from an engineering drawing.
+This project models a flanged conical support pedestal with square base and central cylindrical protrusion, fully created in Autodesk Inventor. The component demonstrates key Inventor workflows: sketch-based extrusion, revolve for cylindrical and conical features, patterned holes, large fillet transitions, and precise dimension-driven modeling from an engineering drawing.
 
 ## 🎯 Objective
-Accurately recreate the pipe clamp/support component from the provided technical drawing while ensuring clean, manufacture-ready geometry suitable for machining or casting. This type of part is commonly used to secure pipes, tubes or hoses in industrial, automotive, marine, and machinery applications.
+Accurately recreate the support pedestal from the provided technical drawing while ensuring clean, parametric, manufacture-ready geometry suitable for machining, casting or 3D printing. Commonly used as an elevated base for pipes, shafts, rods or machinery components.
 
 ## ⚙️ Specifications & Commands
 
-| **Design Specifications**          | **Siemens NX Commands / Features Demonstrated** |
-|------------------------------------|-------------------------------------------------|
-| Total length: 118 mm               | Sketch → Extrude                                |
-| Base width: 48 mm                  | Revolve                                         |
-| Clamp inner diameters: Ø20 mm & Ø12 mm | Swept Cut (for elongated slot)              |
-| Base slot: 44 × 16 mm rounded rectangle | Pattern (rectangular if needed)             |
-| Height (clamp top): 40 mm          | Edge Blend (fillet R2)                          |
-| Material thickness (main body): 16 mm | Datum features / Constraints                 |
-| Fillet radius: R2 mm               | Synchronous / Ordered modeling                  |
-| Units: Millimeters (mm)            | 2D Sketching with dimensions & relations        |
+| **Design Specifications**          | **Autodesk Inventor Commands / Features Demonstrated** |
+|------------------------------------|--------------------------------------------------------|
+| Base: 80 × 80 mm                   | Sketch → Extrude                                       |
+| Mounting holes: 4 × Ø12 mm         | Hole → Circular Pattern                                |
+| Central boss Ø: 34 mm outer / 18 mm inner | Revolve                                         |
+| Overall height: 40 mm              | Extrude / Revolve                                      |
+| Base thickness: 10 mm              | Extrude                                                |
+| Taper height: 37 mm                | Fillet (R20 mm)                                        |
+| Large fillet: R20 mm               | Fillet tool                                            |
+| Units: Millimeters (mm)            | Parametric dimensions & constraints                    |
 
 ## ✨ Design Features
-- Dual semi-circular clamp sections for different pipe diameters  
-- Elongated mounting slot in base for positional adjustment  
-- Reinforced transition geometry between clamp and base  
-- Uniform wall thickness suitable for casting or machining  
-- Rounded edges (R2) for safety and improved manufacturability  
+- Square base with four corner mounting holes  
+- Conical tapered transition body  
+- Central cylindrical boss with through bore  
+- Large R20 mm rounded base transitions  
+- Uniform geometry suitable for casting/machining  
 
 ## 📐 Technical Drawing Source
-Model was built directly from the following 2D information visible in the isometric view:
-- All principal linear dimensions  
-- Cylinder diameters and heights  
-- Slot length, width and fillet radii  
-- Centerline references  
-- Fillet callouts (R2)  
+Model built directly from the provided 2D drawing:  
+- Top view: 80 mm square, Ø34/Ø18 mm central features, four Ø12 mm holes  
+- Front view: 40 mm height, 10 mm base, 37 mm taper, 5 mm top step  
+- All dimensions and fillet callouts in mm  
 
 ## 📸 Models / Screenshots
 
-![Drawing View](SNX1.jpeg)
-![Drawing View](Dual-Radius%20Pipe%20Support%20Clamp%20App.png)
-![Drawing View](Dual-Radius%20Pipe%20Support%20Clamp.png)
+![Drawing View](FS0.jpeg)  
+![3D Model View](FS1.png)  
+![3D Model View](FS2.png)  
+![3D Model View](FS3.png)
 
 ## 📥 CAD Downloads
 
-stl (for 3D printing / visualization)  
+[Download archive](./Flanged%20Support.zip)  
 
-Download the file here:  
-[Download Pipe Support Clamp archive](./Dual-Radius%20Pipe%20Support%20Clamp.zip)
 
-## 🏭🔩 Manufacturing Considerations
-Recommended production methods:
+## 🏭Manufacturing Considerations
 
-- CNC machining from aluminum or steel block (most common)  
-- Casting (sand or investment) + light machining of mating surfaces  
-- Plasma / laser cutting of base plate + welded clamp sections (fabrication alternative)  
+Recommended methods:
+- CNC machining (aluminum/steel)  
+- Sand/investment casting + finish machining  
+- 3D printing (prototypes)  
 
-Design supports:
-- Standard M10–M12 bolts through elongated slot  
-- Easy deburring thanks to R2 external fillets  
-- Good fixturing surfaces for machining  
+Supports:  
+- M10–M12 bolts through Ø12 mm holes  
+- Large R20 fillets for stress relief & deburring  
 
 ## 🌐 Applications
-Typical real-world use cases:
-
-- Industrial pipe and tube routing systems  
-- Hydraulic & pneumatic line clamping  
-- Automotive chassis / engine bay supports  
-- Marine & offshore equipment  
-- HVAC installations  
-- Machinery frames & conveyor systems  
+- Pipe/tube support stands  
+- Shaft/rod pedestals  
+- Machinery alignment bases  
+- Equipment mounting supports  
 
 ## 💭 Reflection
-This Siemens NX project helped demonstrate:
+This Inventor project demonstrated:
 
-- Reading and interpreting complex isometric drawings with many dimensions  
-- Effective use of revolve and sweep features for curved geometry  
-- Maintaining design intent through fully dimensioned sketches  
-- Application of edge blending for realistic engineering parts  
-- Clean model structure suitable for downstream manufacturing or assembly use  
+- Interpreting multiview drawings  
+- Revolve & extrusion for cylindrical/conical geometry  
+- Fully constrained parametric sketches  
+- Large fillets for production-ready parts  
+- Clean model for drawings/assemblies/CAM  
 
-Possible future enhancements:
+Possible enhancements:  
+- Add bolt features  
+- Create annotated drawing sheet  
+- Assign material & mass  
+- Basic stress simulation  
+- Small assembly with sample component  
 
-- Add threaded holes or clearance holes for specific bolt sizes  
-- Apply GD&T (datums, position, profile tolerances)  
-- Create proper 2D drawing sheet inside NX with views & annotations  
-- Add material and mass properties  
-- Perform basic FEA (stress on clamp under load)  
-- Create a small assembly with sample pipe + bolts  
-
-Feedback and suggestions welcome! 💬
+Feedback welcome! 💬
