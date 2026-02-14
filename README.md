@@ -80,3 +80,90 @@ Possible enhancements:
 - Small assembly with sample component  
 
 Feedback welcome! 💬
+
+
+
+# Sheet Metal Concentric Ventilation Cover
+
+## 📖 Overview
+This project models a square sheet metal cover featuring a radial concentric ventilation / louver pattern and four folded side flanges. Built entirely in **Autodesk Inventor Sheet Metal**, it demonstrates core workflows: base face creation, multi-side flanging, circular patterning for cutouts, bend management, and clean folded/flat states, ideal for enclosure panels, fan guards, or breather covers.
+
+## 🎯 Objective
+Create a parametric, production-ready sheet metal part with precise bends and a visually appealing functional ventilation pattern, suitable for laser cutting + bending or CNC punching.
+
+## ⚙️ Specifications & Commands
+
+| **Design Specifications**              | **Autodesk Inventor Commands / Features Demonstrated** |
+|----------------------------------------|--------------------------------------------------------|
+| Square central panel                   | Sheet Metal Defaults → Face                            |
+| Four equal side flanges                | Flange (applied to four edges)                         |
+| Concentric circular ventilation slots  | 2D Sketch → Circular Pattern → Cut                     |
+| Uniform bend radius & relief           | Automatic / rule-based bend allowance                  |
+| Folded model with clean appearance     | Folded Model + Flat Pattern view                       |
+| Units: Millimeters (mm)                | Parametric dimensions & constraints                    |
+
+## ✨ Design Features
+- Square base with radial/concentric slot pattern for airflow  
+- Four symmetric mounting flanges (ready for hole addition)  
+- Smooth, consistent bends suitable for press brake  
+- Fully unfoldable flat pattern for DXF export / fabrication  
+- Organized feature tree with multiple sketches for pattern control  
+
+## 📐 Modeling Approach
+1. Set up **Sheet Metal Defaults** (thickness, bend radius, etc.)  
+2. Created base **Face** from square sketch  
+3. Added **Flange** features on all four sides  
+4. Sketched concentric circles/arcs on face (or in flat state)  
+5. Applied **Circular Pattern** to create repeating slots  
+6. Used **Cut** to remove material for ventilation  
+7. Verified flat pattern and bend lines  
+
+## 📸 Models / Screenshots
+
+![Primary Top View](SM1.png)  
+*Folded model – top view showing concentric ventilation pattern*
+
+![Isometric Folded View](SM2.png)  
+*Isometric view of the complete folded part with side flanges*
+
+![Additional / Detail View](SM3.png)  
+*Alternate angle or flat pattern preview (depending on SM3.png content)*
+
+## 📥 CAD Download
+
+[Download complete Inventor project (part file + sheets)](./Sheet%20Metal.zip)
+
+## 🏭 Manufacturing Considerations
+
+Recommended methods:
+- Laser cut or turret punch flat pattern → CNC press brake bending  
+- Material: steel (0.8–2 mm), stainless, or aluminium  
+- Finish: powder coat, zinc plate, or passivation  
+
+Mounting: flanges designed for screws/bolts (add holes in production variant)  
+Ventilation: provides good airflow + finger/object protection  
+
+## 🌐 Applications
+- Fan / blower guards  
+- Electrical cabinet vents  
+- Equipment enclosure breathers  
+- Audio speaker grilles  
+- Protective panels for machinery  
+
+## 💭 Reflection
+This project highlighted:
+- Clean **Face + Flange** workflow for boxed sheet metal parts  
+- Effective use of **Circular Pattern** in sheet metal context  
+- Managing folded vs. flat representations  
+- Parametric control for easy design updates  
+- Production-oriented modeling (bend-aware geometry)  
+
+Possible enhancements:  
+- Add mounting holes to flanges  
+- Generate flat pattern drawing with bend notes  
+- Assign material → calculate mass / cost estimate  
+- Export flat DXF for direct fabrication  
+- Add ribs or hems for added stiffness  
+
+Feel free to use, modify or reference for similar sheet metal enclosure / guard designs!
+
