@@ -167,3 +167,101 @@ Possible enhancements:
 
 Feel free to use, modify or reference for similar sheet metal enclosure / guard designs!
 
+# Heavy-Duty Saddle Clamp Bracket
+
+## 📖 Overview
+This project models a **heavy-duty saddle clamp bracket** designed to securely hold pipes, tubes, rods or shafts. It features a wide rectangular base with four mounting holes, a central semi-cylindrical saddle cradle, and two upward-extending retaining lugs/ears with Ø20 mm holes for secondary fastening or alignment.  
+Fully built in **Autodesk Inventor** from the provided engineering drawing, the model uses extrude, fillet, mirror, hole patterning and precise radius control to create a strong, production-ready part suitable for casting, CNC machining or fabrication.
+
+## 🎯 Objective
+Faithfully reproduce the saddle clamp bracket from the multi-view technical drawing, capturing all specified dimensions, fillet radii, wall thicknesses and proportions — ensuring the geometry is parametric, symmetric and optimized for real-world manufacturing and load-bearing applications.
+
+## ⚙️ Specifications & Commands
+
+| **Design Specifications**                  | **Autodesk Inventor Commands / Features Demonstrated** |
+|--------------------------------------------|--------------------------------------------------------|
+| Base: 165 × 50 mm (overall footprint 165 × 95 mm) | Sketch → Extrude                                       |
+| Base mounting holes: 4 × Ø20 mm            | Hole → Rectangular Pattern / Mirror                    |
+| Lug holes: 2 × Ø20 mm (115 mm centers)     | Hole tool                                              |
+| Saddle cradle: Ø75 mm nominal diameter     | Revolve / Sweep / Extrude + Fillet                     |
+| Lug / wall thickness: 15 mm                | Extrude + Mirror                                       |
+| Key fillets: R45 mm, R32.5 mm, R37.5 mm    | Variable / constant Fillet tool                        |
+| Overall height: 190 mm                     | Multi-feature modeling                                 |
+| Cradle inner radius: R37.5 mm              | Fillet / Revolve                                       |
+| Side offsets / steps: 15 mm                | Extrude cut                                            |
+| Units: Millimeters (mm)                    | Fully constrained parametric sketches                  |
+
+## ✨ Design Features
+- Wide, stable rectangular base with four Ø20 mm mounting holes  
+- Deep semi-circular saddle (Ø75 mm) to cradle pipes/rods securely  
+- Two tall symmetric lugs spaced 115 mm apart with Ø20 mm through holes  
+- Generous fillet transitions (R45 mm base-to-saddle, R32.5 mm saddle-to-lug, R37.5 mm inner cradle)  
+- Uniform 15 mm thick sections for high strength  
+- Smooth, cast-friendly geometry with large radii to reduce stress concentrations  
+
+## 📐 Technical Drawing Source
+Model created directly from the supplied multi-view drawing:  
+- Top view: 115 mm lug spacing, Ø20 mm holes, 55 mm inner width  
+- Front view: 190 mm total height, 165 mm base width, major fillet callouts  
+- Section A-A (1:2 scale): Ø75 mm cradle, R37.5 mm inner radius, 15 mm wall steps, R45 / R32.5 fillets  
+- Isometric reference view included  
+
+## 📸 Models / Screenshots
+
+![Engineering Drawing](SCB0.jpeg)  
+*Source multi-view technical drawing with all dimensions and section A-A*
+
+![Isometric View – Front Angle](SCB1.png)  
+*3D model – isometric front view showing saddle, lugs and base*
+
+![Side View](SCB2.png)  
+*Side orthographic view highlighting height, fillets and wall thickness*
+
+![Top View](SCB3.png)  
+*Top view displaying lug spacing, mounting holes and cradle profile*
+
+![Detail / Rendered View](SCB4.png)  
+*Close-up or rendered angle showing fillet transitions and overall form*
+
+## 📥 CAD Download
+
+[Download complete Inventor project (part file + any sheets)](./Saddle%20Clamp%20Bracket.zip)
+
+## 🏭 Manufacturing Considerations
+
+Recommended methods:
+- Sand / investment casting (ductile iron, cast steel) + machining of critical faces/holes  
+- CNC milling from solid bar or plate (steel, stainless, aluminum prototypes)  
+- Welded fabrication (base plate + rolled tube + welded lugs) for low-volume  
+
+Key notes:
+- Large fillets improve castability, reduce stress risers and ease deburring  
+- Ø20 mm holes accept M16–M20 bolts / pins  
+- Generous radii suitable for core pull and mold release  
+
+## 🌐 Applications
+- Pipe / tube saddle supports on machinery frames  
+- Hydraulic line clamping brackets  
+- Shaft or axle holders in equipment  
+- Structural rod / bar restraints  
+- Heavy vehicle or trailer frame attachments  
+
+## 💭 Reflection
+This Inventor project demonstrated:
+
+- Precise translation of complex multiview + sectioned drawings into 3D  
+- Effective use of **Fillet** (multiple radii), **Mirror**, **Extrude** and **Hole** tools  
+- Building symmetric, load-bearing geometry with production in mind  
+- Maintaining full parametric control for future modifications  
+- Clean feature tree and dimension-driven design  
+
+Possible enhancements:  
+- Add 1–2° draft angles for casting  
+- Generate fully annotated 2D drawing (.idw) with GD&T  
+- Assign material → compute mass, volume, CoG  
+- Perform FEA stress analysis under typical pipe load  
+- Create assembly with sample pipe segment and fasteners  
+- Parameterize for different pipe diameters (family table / iPart)  
+
+Feel free to fork, adapt or reference for similar saddle clamp or pipe support designs!
+
