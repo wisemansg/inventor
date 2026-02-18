@@ -43,7 +43,7 @@ Model built directly from the provided 2D drawing:
 
 ## 📥 CAD Downloads
 
-[Download archive](./Flanged%20Support.zip)  
+[⬇ Download Flanged Support ZIP](https://raw.githubusercontent.com/wisemansg/inventor/main/Flanged%20Support.zip)
 
 
 ## 🏭Manufacturing Considerations
@@ -127,7 +127,7 @@ Create a parametric, production-ready sheet metal part with precise bends and a 
 
 ## 📥 CAD Download
 
-[Download complete Inventor project (part file + sheets)](./Sheet%20Metal.zip)
+[⬇ Download Sheet Metal ZIP](https://raw.githubusercontent.com/wisemansg/inventor/main/Sheet%20Metal.zip)
 
 ## 🏭 Manufacturing Considerations
 
@@ -212,7 +212,7 @@ Model created directly from the supplied multi-view drawing:
 
 ## 📥 CAD Download
 
-[Download complete Inventor project (part file + any sheets)](./Saddle%20Clamp%20Bracket.zip)
+[⬇ Download Saddle Clamp Bracket ZIP](https://raw.githubusercontent.com/wisemansg/inventor/main/Saddle%20Clamp%20Bracket.zip)
 
 ## 🏭 Manufacturing Considerations
 
