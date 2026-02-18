@@ -121,13 +121,9 @@ Create a parametric, production-ready sheet metal part with precise bends and a 
 ## 📸 Models / Screenshots
 
 ![Primary Top View](SM1.png)  
-*Folded model – top view showing concentric ventilation pattern*
-
 ![Isometric Folded View](SM2.png)  
-*Isometric view of the complete folded part with side flanges*
-
 ![Additional / Detail View](SM3.png)  
-*Alternate angle or flat pattern preview (depending on SM3.png content)*
+
 
 ## 📥 CAD Download
 
@@ -170,11 +166,10 @@ Feel free to use, modify or reference for similar sheet metal enclosure / guard 
 # Heavy-Duty Saddle Clamp Bracket
 
 ## 📖 Overview
-This project models a **heavy-duty saddle clamp bracket** designed to securely hold pipes, tubes, rods or shafts. It features a wide rectangular base with four mounting holes, a central semi-cylindrical saddle cradle, and two upward-extending retaining lugs/ears with Ø20 mm holes for secondary fastening or alignment.  
-Fully built in **Autodesk Inventor** from the provided engineering drawing, the model uses extrude, fillet, mirror, hole patterning and precise radius control to create a strong, production-ready part suitable for casting, CNC machining or fabrication.
+This project models a **heavy-duty saddle clamp bracket** designed to securely hold pipes, tubes, rods or shafts. It features a wide rectangular base with four mounting holes, a central semi-cylindrical saddle cradle, and two upward-extending retaining lugs/ears with Ø20 mm holes for secondary fastening or alignment. Fully built in **Autodesk Inventor** from the provided engineering drawing, the model uses extrude, fillet, mirror, hole patterning and precise radius control to create a strong, production-ready part suitable for casting, CNC machining or fabrication.
 
 ## 🎯 Objective
-Faithfully reproduce the saddle clamp bracket from the multi-view technical drawing, capturing all specified dimensions, fillet radii, wall thicknesses and proportions — ensuring the geometry is parametric, symmetric and optimized for real-world manufacturing and load-bearing applications.
+Faithfully reproduce the saddle clamp bracket from the multi-view technical drawing, capturing all specified dimensions, fillet radii, wall thicknesses and proportions, ensuring the geometry is parametric, symmetric and optimized for real-world manufacturing and load-bearing applications.
 
 ## ⚙️ Specifications & Commands
 
@@ -209,19 +204,11 @@ Model created directly from the supplied multi-view drawing:
 ## 📸 Models / Screenshots
 
 ![Engineering Drawing](SCB0.jpeg)  
-*Source multi-view technical drawing with all dimensions and section A-A*
-
 ![Isometric View – Front Angle](SCB1.png)  
-*3D model – isometric front view showing saddle, lugs and base*
-
 ![Side View](SCB2.png)  
-*Side orthographic view highlighting height, fillets and wall thickness*
-
 ![Top View](SCB3.png)  
-*Top view displaying lug spacing, mounting holes and cradle profile*
-
 ![Detail / Rendered View](SCB4.png)  
-*Close-up or rendered angle showing fillet transitions and overall form*
+
 
 ## 📥 CAD Download
 
@@ -264,4 +251,87 @@ Possible enhancements:
 - Parameterize for different pipe diameters (family table / iPart)  
 
 Feel free to fork, adapt or reference for similar saddle clamp or pipe support designs!
+
+# Clevis Bracket 
+
+## 📖 Overview
+This project models a clevis bracket (forked / yoke bracket) fully created in Autodesk Inventor. The component was built directly from the provided engineering drawing and demonstrates key Inventor workflows: multi-depth extrusions, complex profile sketching with arcs and angles, multiple fillet radii, hole placement, and precise dimension-driven parametric modeling.
+
+## 🎯 Objective
+Accurately recreate the clevis bracket geometry exactly as shown in the technical drawing while maintaining fully constrained, parametric sketches and clean transitions suitable for manufacturing (CNC machining, casting or prototyping).
+
+## ⚙️ Specifications & Commands
+
+| Design Specifications                  | Autodesk Inventor Commands / Features Demonstrated    |
+|----------------------------------------|--------------------------------------------------------|
+| Overall span ≈ 90 mm + 40 mm           | Sketch → Extrude (multiple depths)                     |
+| Three Ø12 mm holes (3 Nos)             | Hole / Circle → Rectangular or 3-point placement       |
+| Large outer radii: R40, R30, R28, R15  | Fillet (multiple different radii)                      |
+| Main circular feature Ø78 mm           | Sketch arcs + Fillet / Extrude                         |
+| Smaller circular features Ø30, Ø20     | Cut / Pocket extrusion                                 |
+| Angles: 12° and 45°                    | Angular dimensions & constraints in sketch             |
+| Thickness steps: 6, 10, 12, 18, 20 mm  | Multi-body or multi-depth extrusion + offset           |
+| Stepped heights: 30 mm, 65 mm sections | Extrude + new sketch planes / faces                    |
+| Units: Millimeters (mm)                | Document units + parametric dimensions                 |
+
+## ✨ Design Features
+- Forked / clevis end with three aligned Ø12 mm through holes  
+- Large external corner radii (R40 – R15) for strength and smooth appearance  
+- Central reinforced circular area Ø78 mm  
+- Stepped / variable thickness body (6–20 mm)  
+- Angled webs or supports at 12° and 45°  
+- Blended transitions and multiple fillet sizes throughout  
+
+## 📐 Technical Drawing Source
+Model built 100% from the provided 2D drawing (**CB0.jpeg**):  
+
+- Main view showing:  
+  - Ø78, Ø30, Ø20, R40, R30, R28, R15, three Ø12 holes  
+  - 12° and 45° angles  
+  - 90 mm and 40 mm reference lengths  
+
+- Orthographic / sectional view showing:  
+  - Heights/steps: 30 mm, 65 mm, 20 mm  
+  - Thicknesses: 6 mm, 10 mm, 12 mm, 18 mm  
+  - All other linear dimensions  
+
+## 📸 Models / Screenshots
+
+![Source Drawing](images/CB0.jpeg)  
+![Model – View 1](images/CB1.png)  
+![Model – View 2](images/CB2.png)  
+![Model – View 3](images/CB3.png)  
+![Model – View 4](images/CB4.png)
+
+## 📥 CAD Downloads
+
+[Download complete Inventor part file](./Clevis%20Bracket.zip)
+
+## 🏭 Manufacturing Considerations
+
+Recommended methods:
+- 3-axis or 5-axis **CNC milling** from steel / stainless / aluminum plate  
+- **Investment casting** or sand casting + finish machining  
+- **3D printing** (metal or high-strength polymer) for prototypes  
+
+Design supports:
+- Ø12 mm standard clevis pin or bolt  
+- Large corner radii reduce stress concentrations and improve castability  
+- Smooth fillets facilitate deburring and surface finishing  
+
+## 💭 Reflection
+This Inventor project demonstrated:
+
+- Reading and accurately transferring complex multiview drawings with mixed angles and multiple radii  
+- Building robust parametric sketches with tangent & angular constraints  
+- Using variable-depth extrusions and multiple fillet operations efficiently  
+- Creating production-intent geometry with generous transitions  
+
+Possible next steps:
+- Create 2D annotated drawing (.idw) with tolerances  
+- Add material assignment and mass properties  
+- Model mating clevis pin or rod for small assembly  
+- Export neutral formats (STEP / IGES) for CAM or sharing  
+
+Feedback welcome! 💬
 
