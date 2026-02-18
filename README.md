@@ -297,16 +297,15 @@ Model built 100% from the provided 2D drawing (**CB0.jpeg**):
 
 ## 📸 Models / Screenshots
 
-![Source Drawing](images/CB0.jpeg)
-![Model – View 1](images/CB1.png)
-![Model – View 2](images/CB2.png)
-![Model – View 3](images/CB3.png)
-![Model – View 4](images/CB4.png)
+![Engineering Drawing](./SCB0.jpeg)
+![Isometric View – Front Angle](./SCB1.png)
+![Side View](./SCB2.png)
+![Top View](./SCB3.png)
+![Detail / Rendered View](./SCB4.png)
 
+## 📥 CAD Download
 
-## 📥 CAD Downloads
-
-[Download complete Inventor part file](Clevis-Bracket.zip)
+[Download complete Inventor project (part file + any sheets)](./Saddle-Clamp-Bracket.zip)
 
 ## 🏭 Manufacturing Considerations
 
