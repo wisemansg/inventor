@@ -305,7 +305,7 @@ Model built 100% from the provided 2D drawing (**CB0.jpeg**):
 
 ## 📥 CAD Download
 
-[Download complete Inventor part file](./Clevis-Bracket.zip)
+[⬇ Download Clevis Bracket ZIP](https://raw.githubusercontent.com/wisemansg/inventor/main/Clevis%20Bracket.zip)
 
 ## 🏭 Manufacturing Considerations
 
