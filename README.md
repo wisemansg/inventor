@@ -37,9 +37,9 @@ Create a parametric, production-ready sheet metal part with precise bends and a 
 
 ## 📸 Models / Screenshots
 
-![Primary Top View](SM1.png)  
-![Isometric Folded View](SM2.png)  
-![Additional / Detail View](SM3.png)  
+![Primary Top View](./inventorassets/SM1.png)  
+![Isometric Folded View](./inventorassets/SM2.png)  
+![Additional / Detail View](./inventorassets/SM3.png)  
 
 
 ## 📥 CAD Download
@@ -120,11 +120,11 @@ Model created directly from the supplied multi-view drawing:
 
 ## 📸 Models / Screenshots
 
-![Engineering Drawing](SCB0.jpeg)  
-![Isometric View – Front Angle](SCB1.png)  
-![Side View](SCB2.png)  
-![Top View](SCB3.png)  
-![Detail / Rendered View](SCB4.png)  
+![Engineering Drawing](./inventorassets/SCB0.jpeg)  
+![Isometric View – Front Angle](./inventorassets/SCB1.png)  
+![Side View](./inventorassets/SCB2.png)  
+![Top View](./inventorassets/SCB3.png)  
+![Detail / Rendered View](./inventorassets/SCB4.png)  
 
 
 ## 📥 CAD Download
@@ -205,10 +205,10 @@ Model built directly from the provided 2D drawing:
 
 ## 📸 Models / Screenshots
 
-![Drawing View](FS0.jpeg)  
-![3D Model View](FS1.png)  
-![3D Model View](FS2.png)  
-![3D Model View](FS3.png)
+![Drawing View](./inventorassets/FS0.jpeg)  
+![3D Model View](./inventorassets/FS1.png)  
+![3D Model View](./inventorassets/FS2.png)  
+![3D Model View](./inventorassets/FS3.png)
 
 ## 📥 CAD Downloads
 
@@ -295,11 +295,11 @@ Model built 100% from the provided 2D drawing (**CB0.jpeg**):
 
 ## 📸 Models / Screenshots
 
-![Source Drawing](./CB0.jpeg)
-![Model – View 1](./CB1.png)
-![Model – View 2](./CB2.png)
-![Model – View 3](./CB3.png)
-![Model – View 4](./CB4.png)
+![Source Drawing](./inventorassets/CB0.jpeg)
+![Model – View 1](./inventorassets/CB1.png)
+![Model – View 2](./inventorassets/CB2.png)
+![Model – View 3](./inventorassets/CB3.png)
+![Model – View 4](./inventorassets/CB4.png)
 
 ## 📥 CAD Download
 
